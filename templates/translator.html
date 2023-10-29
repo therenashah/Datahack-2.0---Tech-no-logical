@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>legual</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../static/assets/css/translator.css" />
+		<link rel="stylesheet" href="../static/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/assets/css/lineicons.css" />
+    <link rel="stylesheet" href="../static/assets/css/animate.css" />
+    <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+	</head>
+	<body class="is-preload">
+		    <!-- ======== header start ======== -->
+			<header class="header">
+				<div class="navbar-area">
+				  <div class="container">
+					<div class="row align-items-center">
+					  <div class="col-lg-12">
+						<nav class="navbar navbar-expand-lg">
+						  <a class="navbar-brand" href="index.html">
+							<img src="../static/assets/img/images/logo-2.png" alt="Logo" />
+						  </a>
+						  <button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						  >
+							<span class="toggler-icon"></span>
+							<span class="toggler-icon"></span>
+							<span class="toggler-icon"></span>
+						  </button>
+		  
+						  <div
+							class="collapse navbar-collapse sub-menu-bar"
+							id="navbarSupportedContent"
+						  >
+							<ul id="nav" class="navbar-nav ms-auto">
+							  <li class="nav-item">
+								<a class="page-scroll active" href="#home">Home</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="page-scroll" href="#features">Guide</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="page-scroll" href="#about">About</a>
+							  </li>
+		  
+							  <li class="nav-item">
+								<a class="page-scroll" href="#why">My Documents</a>
+							  </li>
+							  <div class="icon">
+								<i class="lni lni-user"></i>
+							  </div>
+							  <li class="nav-item">
+								<a href="javascript:void(0)">Account</a>
+							  </li>
+							</ul>
+						  </div>
+						  <!-- navbar collapse -->
+						</nav>
+						<!-- navbar -->
+					  </div>
+					</div>
+					<!-- row -->
+				  </div>
+				  <!-- container -->
+				</div>
+				<!-- navbar area -->
+			  </header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="single.html">Chat with PDF</a></h2>
+										<p>Post your queries here.</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-11-01">Text to voice</time>
+										<a href="#" class="author"><span class="name">Click here to listen </span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+
+								<footer>
+    <form id="chatbot-form" action="{% url 'chatbot' %}" method="post">
+        <ul class="actions">
+            <input type="text" name="user-question" size="30" placeholder="Enter your question" />
+        </ul>
+        <ul class="stats">
+            <!-- You can add any additional stats here if needed -->
+        </ul>
+        <button type="submit">Ask</button>
+    </form>
+</footer>
+
+							</article>
+					</div>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								
+								<header>
+									<h2>Translated Pdf </h2>
+									
+									  
+								</header>
+							</section>
+
+					
+
+						<!-- Posts List -->
+							<section>
+								<ul class="posts">
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Pdf Uploaded</a></h3>
+												<time class="published" datetime="2015-10-20">download here</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
+										</article>
+									</li>
+									<li>
+										<article>
+											<header>
+												<h3><a href="single.html">Translated to english</a></h3>
+						
+												<time class="published" datetime="2015-10-15">Download here</time>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
+										</article>
+									</li>
+									
+								</ul><body>
+									<button class="custombutton" onclick="summarizeText()">Summarize Text</button>
+								</body>
+							</section>
+						
+
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+		    <script src="../static/assets/js/main.js"></script>
+			<script src="../static/assets/js/jquery.min.js"></script>
+			<script src="../static/assets/js/browser.min.js"></script>
+			<script src="../static/assets/js/breakpoints.min.js"></script>
+			<script src="../static/assets/js/util.js"></script>
+			<!-- <script>
+				function summarizeText(){
+
+				}
+			</script> -->
+
+	</body>
+</html>
